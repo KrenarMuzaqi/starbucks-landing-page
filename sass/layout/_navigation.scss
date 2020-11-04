@@ -28,5 +28,16 @@ nav {
         margin-right: 4rem;
       }
     }
+
+    @media #{$mq-650-down} {
+      display: none;
+    }
+  }
+
+  @media #{$mq-992-down} {
+    padding: 2rem 4rem;
+  }
+  @media #{$mq-768-down} {
+    padding: 2rem;
   }
 }

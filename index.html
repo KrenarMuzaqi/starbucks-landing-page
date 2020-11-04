@@ -29,12 +29,15 @@
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
           aspernatur repellendus fugit neque dignissimos quo quasi aperiam
           molestias optio esse! Modi, impedit quisquam! Quaerat totam quasi
-          asperiores architecto iste! Unde! Illum repellat hic enim ratione
-          sapiente distinctio cum fugiat quos voluptate consequuntur velit,
-          praesentium perspiciatis amet deleniti, eveniet exercitationem
-          necessitatibus iste eius cumque animi temporibus doloribus vero.
-          Aliquid, obcaecati ratione! Deserunt, dolorum. Beatae maiores optio,
-          rerum sed qui ullam fuga. Quasi nihil dicta suscipit, cumque,
+          asperiores architecto iste! Unde!
+          <span>
+            Illum repellat hic enim ratione sapiente distinctio cum fugiat quos
+            voluptate consequuntur velit, praesentium perspiciatis amet
+            deleniti, eveniet exercitationem necessitatibus iste eius cumque
+            animi temporibus doloribus vero. Aliquid, obcaecati ratione!
+            Deserunt, dolorum. Beatae maiores optio, rerum sed qui ullam fuga.
+            Quasi nihil dicta suscipit, cumque,
+          </span>
         </p>
         <a href="#" class="btn btn-green">Learn More</a>
       </div>
@@ -46,9 +49,27 @@
         />
       </div>
       <ul class="slider">
-        <li><img src="/images/thumb1.png" alt="" /></li>
-        <li><img src="/images/thumb2.png" alt="" /></li>
-        <li><img src="/images/thumb3.png" alt="" /></li>
+        <li>
+          <img
+            src="/images/thumb1.png"
+            alt=""
+            onclick="imgSlider('/images/img-1.png'); changeCircleColor('#017143')"
+          />
+        </li>
+        <li>
+          <img
+            src="/images/thumb2.png"
+            alt=""
+            onclick="imgSlider('/images/img-3.png'); changeCircleColor('#eb7495')"
+          />
+        </li>
+        <li>
+          <img
+            src="/images/thumb3.png"
+            alt=""
+            onclick="imgSlider('/images/img-2.png'); changeCircleColor('#d752b1')"
+          />
+        </li>
       </ul>
       <ul class="social-media">
         <li>
@@ -61,6 +82,10 @@
           <a href="#"><img src="./images/instagram.png" alt="ig img" /></a>
         </li>
       </ul>
+
+      <div class="circle"></div>
     </header>
+
+    <script src="main.js"></script>
   </body>
 </html>
