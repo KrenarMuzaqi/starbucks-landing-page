@@ -1,0 +1,32 @@
+nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+
+  .logo {
+    position: relative;
+    max-width: 8rem;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.6rem;
+
+    li {
+      a {
+        text-decoration: none;
+        display: inline-block;
+        color: $dark-charcoal-col;
+        font-weight: 400;
+      }
+
+      &:not(:last-child) {
+        margin-right: 4rem;
+      }
+    }
+  }
+}

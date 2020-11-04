@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 10rem;
+  position: relative;
+  padding-bottom: 20rem;
+
+  &-txt {
+    position: relative;
+    max-width: 60rem;
+    h2 {
+      font-size: 2rem;
+      font-size: 6.4rem;
+      color: $dark-charcoal-col;
+
+      span {
+        color: $dark-green-col;
+        font-weight: 900;
+      }
+    }
+
+    p {
+      font-size: 1.8rem;
+      color: $dark-charcoal-col;
+    }
+
+    .btn-green {
+      margin-top: 2rem;
+    }
+  }
+
+  &-img {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+    margin-top: 5rem;
+
+    img {
+      max-width: 34rem;
+    }
+  }
+}
