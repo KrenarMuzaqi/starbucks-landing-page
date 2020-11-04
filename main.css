@@ -131,7 +131,7 @@ body {
           align-items: center;
   padding: 2rem 10rem;
   position: relative;
-  padding-bottom: 20rem;
+  padding-bottom: 8rem;
 }
 
 @media screen and (max-width: 450px) {
@@ -210,7 +210,7 @@ body {
 }
 
 .header-img img {
-  max-width: 34rem;
+  max-width: 26rem;
 }
 
 @media screen and (max-width: 1200px) {

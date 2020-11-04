@@ -6,7 +6,7 @@
   align-items: center;
   padding: 2rem 10rem;
   position: relative;
-  padding-bottom: 20rem;
+  padding-bottom: 8rem;
 
   @media #{$mq-450-down} {
     height: calc(100vh - 10rem);
@@ -66,7 +66,7 @@
     margin-top: 5rem;
 
     img {
-      max-width: 34rem;
+      max-width: 26rem;
 
       @media #{$mq-1200-down} {
         max-width: 26rem;
