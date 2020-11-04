@@ -7,4 +7,8 @@
   background-color: $dark-green-col;
   clip-path: circle(600px at right 800px);
   z-index: -1;
+
+  @media #{$mq-450-down} {
+    clip-path: circle(600px at right 1000px);
+  }
 }

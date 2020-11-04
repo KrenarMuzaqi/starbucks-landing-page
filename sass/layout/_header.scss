@@ -8,6 +8,10 @@
   position: relative;
   padding-bottom: 20rem;
 
+  @media #{$mq-450-down} {
+    height: calc(100vh - 10rem);
+  }
+
   &-txt {
     position: relative;
     max-width: 60rem;
@@ -74,7 +78,7 @@
 
       @media #{$mq-650-down} {
         max-width: 100%;
-        height: 30rem;
+        height: 20rem;
       }
     }
 
@@ -86,6 +90,9 @@
       width: 100%;
       justify-content: center;
       margin-top: 10rem;
+    }
+    @media #{$mq-450-down} {
+      margin-top: 6rem;
     }
   }
 

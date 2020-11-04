@@ -9,6 +9,10 @@ nav {
   .logo {
     position: relative;
     max-width: 8rem;
+
+    @media #{$mq-650-down} {
+      max-width: 6rem;
+    }
   }
 
   ul {

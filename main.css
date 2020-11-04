@@ -110,6 +110,13 @@ body {
   z-index: -1;
 }
 
+@media screen and (max-width: 450px) {
+  .circle {
+    -webkit-clip-path: circle(600px at right 1000px);
+            clip-path: circle(600px at right 1000px);
+  }
+}
+
 .header {
   width: 100%;
   height: calc(100vh - 12.1rem);
@@ -125,6 +132,12 @@ body {
   padding: 2rem 10rem;
   position: relative;
   padding-bottom: 20rem;
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    height: calc(100vh - 10rem);
+  }
 }
 
 .header-txt {
@@ -216,7 +229,7 @@ body {
 @media screen and (max-width: 650px) {
   .header-img img {
     max-width: 100%;
-    height: 30rem;
+    height: 20rem;
   }
 }
 
@@ -233,6 +246,12 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header-img {
+    margin-top: 6rem;
   }
 }
 
@@ -281,6 +300,12 @@ nav {
 nav .logo {
   position: relative;
   max-width: 8rem;
+}
+
+@media screen and (max-width: 650px) {
+  nav .logo {
+    max-width: 6rem;
+  }
 }
 
 nav ul {
